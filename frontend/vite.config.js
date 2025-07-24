@@ -9,6 +9,6 @@ export default defineConfig({
         tailwindcss(),
 
   ],
-  base:process.env.VITE_BASE_PATH || "/kisaanbot",
+  base:process.env.VITE_BASE_PATH || "/VITADEPLOY",
     
 })
