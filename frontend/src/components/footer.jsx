@@ -11,7 +11,7 @@ export default function Footer() {
         }
       `}</style>
 
-      <footer className="w-full bg-white opacity-50 text-black py-4 px-4 shadow-inner">
+      <footer className="w-full bg-white opacity-70 text-black py-4 px-4 shadow-inner">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
 
           {/* Logo + Title */}

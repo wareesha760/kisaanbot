@@ -2,7 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
 import Home from './pages/landing';
-import Tractor from './pages/tractor';
+import RegisterPage from './pages/RegisterPage';
+import Weather from './pages/weather';
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/tractor" element={<Tractor />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/weather" element={ <Weather/>} />
+
           </Routes>
           <Footer />
         </div>

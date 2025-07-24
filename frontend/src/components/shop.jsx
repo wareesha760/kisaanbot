@@ -1,7 +1,7 @@
 // Shop.jsx
 import React, { useState } from "react";
-
-function Shop({ title, image, description }) {
+import {Link} from 'react-router-dom';
+function Shop({ title, image, description,url="" }) {
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   const threshold = 12;
 
@@ -13,7 +13,9 @@ function Shop({ title, image, description }) {
   };
 
   return (
-    <div
+    <div>
+    <Link to={url}>
+    <div 
   className="rounded-xl shadow-xl bg-gray-100 overflow-hidden transition-transform duration-200 ease-out cursor-pointer max-w-80"
   onMouseMove={handleMove}
   onMouseLeave={() => setTilt({ x: 0, y: 0 })}
@@ -32,6 +34,8 @@ function Shop({ title, image, description }) {
   <p className="text-sm px-4 pb-6 text-gray-600 w-5/6 text-center mx-auto">
     {description}
   </p>
+</div>
+</Link>
 </div>
 
   );
