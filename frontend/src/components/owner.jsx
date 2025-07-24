@@ -5,16 +5,12 @@ export default function OwnerForm(){
 
       <input className="w-full border p-2 rounded" placeholder="کسان کا نام" />
       <input className="w-full border p-2 rounded" placeholder="موبائل نمبر" />
-      <input className="w-full border p-2 rounded" placeholder="بیٹ کوڈ" />
 
       {/* علاقہ کی معلومات */}
       <div className="grid grid-cols-2 gap-2">
         <input className="border p-2 rounded" placeholder="ضلع" />
         <input className="border p-2 rounded" placeholder="تحصیل" />
-        <input className="border p-2 rounded" placeholder="یونین کونسل" />
-        <input className="border p-2 rounded" placeholder="گاؤں" />
         <input className="border p-2 rounded col-span-2" placeholder="شہر" />
-        <input className="border p-2 rounded col-span-2" placeholder="زمین رقبہ (ایکڑ میں)" />
       </div>
 
       {/* مشینری کی اقسام */}

@@ -5,7 +5,6 @@ export default function RenterForm(){
 
       <input className="w-full border p-2 rounded" placeholder="کسان کا نام" />
       <input className="w-full border p-2 rounded" placeholder="موبائل نمبر" />
-      <input className="w-full border p-2 rounded" placeholder="بیٹ کوڈ" />
 
       {/* علاقہ کی معلومات */}
       <div className="grid grid-cols-2 gap-2">
